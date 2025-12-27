@@ -13,24 +13,26 @@ Manisa Celal Bayar Üniversitesi Yazılım Mühendisliği bölümü kapsamında 
 
 > **Projenin çalışır halini aşağıda izleyebilirsiniz:**
 
+https://github.com/user-attachments/assets/21953bc1-1e4a-40f0-b54c-5db453f511de
+
 ![Proje Demosu](demo.gif)
-*(Eğer video dosyası ekleyecekseniz buraya video linkini koyabilirsiniz)*
+
 
 ---
 
-## 🚀 Proje Hakkında
+##  Proje Hakkında
 
 Bu sistem, manuel envanter takibindeki veri kayıplarını önlemek ve stok yönetimini dijitalleştirmek amacıyla tasarlanmıştır. **MVC (Model-View-Controller)** mimarisi üzerine inşa edilmiş olup, kurumsal güvenlik standartlarına (Identity & Role Based Auth) uygundur.
 
 ### ✨ Temel Özellikler
 
-* **🔐 Rol Tabanlı Yetkilendirme (RBAC):**
+* ** Rol Tabanlı Yetkilendirme (RBAC):**
     * **Admin:** Tam yetki (Ekleme, Silme, Güncelleme, Kullanıcı Yönetimi).
     * **User (Personel):** Sadece görüntüleme ve raporlama yetkisi.
-* **⚠️ Kritik Stok Yönetimi:** Stok adedi **5'in altına düşen** ürünler için otomatik görsel uyarı sistemi.
-* **📍 Konum ve Zimmet Takibi:** Demirbaşların hangi departmanda veya katta (Örn: Yazılım Lab 1, Zemin Kat) olduğunu takip edebilme.
-* **📊 Dinamik Dashboard:** Toplam stok, kategori ve uyarıların görselleştirildiği yönetim paneli.
-* **📱 Modern Arayüz:** Bootstrap 5 (Lux Teması) ile geliştirilmiş responsive tasarım.
+* ** Kritik Stok Yönetimi:** Stok adedi **5'in altına düşen** ürünler için otomatik görsel uyarı sistemi.
+* ** Konum ve Zimmet Takibi:** Demirbaşların hangi departmanda veya katta (Örn: Yazılım Lab 1, Zemin Kat) olduğunu takip edebilme.
+* ** Dinamik Dashboard:** Toplam stok, kategori ve uyarıların görselleştirildiği yönetim paneli.
+* ** Modern Arayüz:** Bootstrap 5 (Lux Teması) ile geliştirilmiş responsive tasarım.
 
 ---
 
@@ -74,7 +76,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 ---
 
-## 👤 Giriş Bilgileri (Varsayılan)
+##  Giriş Bilgileri (Varsayılan)
 
 Projeyi test etmek için aşağıdaki hesapları kullanabilirsiniz:
 
@@ -85,11 +87,8 @@ Projeyi test etmek için aşağıdaki hesapları kullanabilirsiniz:
 
 ---
 
-## 👨‍💻 Geliştirici
+##  Geliştirici
 
-**[Adın Soyadın]**
-* Manisa Celal Bayar Üniversitesi - Yazılım Mühendisliği
-* [LinkedIn Profilim](https://linkedin.com/in/profilin)
-* [GitHub Profilim](https://github.com/profilin)
+* [GitHub Profilim](https://github.com/nilufereksi)
 
 ---
