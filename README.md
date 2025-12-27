@@ -17,7 +17,6 @@ https://github.com/user-attachments/assets/21953bc1-1e4a-40f0-b54c-5db453f511de
 
 ![Proje Demosu](demo.gif)
 
-
 ---
 
 ##  Proje Hakkında
@@ -54,7 +53,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyi
 
 1.  **Projeyi Klonlayın:**
     ```bash
-    git clone [https://github.com/KULLANICIADIN/DemirbasYonetim.git](https://github.com/KULLANICIADIN/DemirbasYonetim.git)
+    git clone [https://github.com/nilufereksi/DemirbasYonetim.git](https://github.com/nilufereksi/DemirbasYonetim.git)
     ```
 
 2.  **Veritabanı Ayarları:**
