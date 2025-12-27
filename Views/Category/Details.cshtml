@@ -1,0 +1,34 @@
+﻿@model DemirbasYonetim.Models.Category
+
+@{
+    ViewData["Title"] = "Kategori Detayı";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-dark text-white">
+                    <h4 class="mb-0"><i class="fa-solid fa-list me-2"></i> Kategori Bilgisi</h4>
+                </div>
+                <div class="card-body text-center p-5">
+                    <i class="fa-solid fa-folder-open fa-4x text-muted mb-3"></i>
+                    <h2 class="fw-bold text-uppercase">@Model.Name</h2>
+                    <p class="text-muted">Kategori ID: @Model.Id</p>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-between p-3">
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="fa-solid fa-arrow-left"></i> Geri Dön
+                    </a>
+
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning text-white">
+                            <i class="fa-solid fa-pen"></i> Düzenle
+                        </a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="jumbotron text-center mb-5">
+    <h1 class="display-4 fw-bold">Demirbaş Yönetim Sistemi</h1>
+    <p class="lead">Kurumsal varlıklarınızı güvenle takip edin, raporlayın ve yönetin.</p>
+    <hr class="my-4">
+    <p>Proje kapsamında veritabanı işlemleri, rol yönetimi ve raporlama modülleri aktiftir.</p>
+    <a class="btn btn-primary btn-lg" asp-controller="Product" asp-action="Index" role="button">Demirbaşları Listele</a>
+</div>
+
+<div class="row text-center">
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-dark mb-3 shadow">
+            <div class="card-header">TOPLAM KATEGORİ</div>
+            <div class="card-body">
+                <h1 class="card-title display-3"><i class="fa-solid fa-layer-group"></i></h1>
+                <p class="card-text">Sistemde tanımlı kategoriler.</p>
+                <a asp-controller="Category" asp-action="Index" class="btn btn-outline-light btn-sm">Görüntüle</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-primary mb-3 shadow">
+            <div class="card-header">TOPLAM DEMİRBAŞ</div>
+            <div class="card-body">
+                <h1 class="card-title display-3"><i class="fa-solid fa-boxes-stacked"></i></h1>
+                <p class="card-text">Aktif zimmetli veya stoktaki ürünler.</p>
+                <a asp-controller="Product" asp-action="Index" class="btn btn-light btn-sm">Listeye Git</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 mb-3">
+        <div class="card text-white bg-danger mb-3 shadow">
+            <div class="card-header">KRİTİK STOK</div>
+            <div class="card-body">
+                <h1 class="card-title display-3"><i class="fa-solid fa-triangle-exclamation"></i></h1>
+                <p class="card-text">Stoğu azalan ürünleri inceleyin.</p>
+                <a asp-controller="Product" asp-action="Index" class="btn btn-outline-light btn-sm">Kontrol Et</a>
+            </div>
+        </div>
+    </div>
+</div>
