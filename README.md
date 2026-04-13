@@ -1,4 +1,4 @@
-# 📦 Demirbaş Yönetim Sistemi 
+# 📦 Demirbaş Yönetim Sistemi  
     Inventory Management System
 
 ![.NET Core](https://img.shields.io/badge/.NET%20Core-8.0-purple?style=flat&logo=dotnet)
